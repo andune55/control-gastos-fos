@@ -1,7 +1,6 @@
 import { ChangeEvent } from "react";
 import { categories } from "../data/categories";
 import { useBudgetStore } from "../store"
-import { Category } from "../types";
 
 export default function FilterByCategory() {
 

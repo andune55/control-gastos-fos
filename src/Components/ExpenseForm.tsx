@@ -1,5 +1,5 @@
 import { useState, useEffect, ChangeEvent, FormEvent, useMemo } from "react"
-import { DraftExpense, Expense, Value } from "../types"
+import { DraftExpense, Value } from "../types"
 import { useBudgetStore } from '../store';
 import ErrorMessage from "./ErrorMessage";
 import { categories } from "../data/categories";
